@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classy</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/classy_logo_2.jpg" alt="Classy" class="logo">
+            <p><strong>The Ultimate Classroom Management Solution</strong></p>
+        </div>
+    </header>
+
+    <section id="prototype">
+        <h2>Prototype: Classy Dashboard</h2>
+        <p>This page provides a prototype of Classy's dashboard functionality.  In the Classy application, users would log in and land on their customized individual dashboard, which would display information about the classrooms to which they are assigned under their organization's Classy license.  </p>
+    
+        <a href="https://video.bellarmine.edu/media/t/1_2lj54cdm">The video for Assignment 3 can be found here.</a></p>
+    </section>
+
+    <h3>Your classrooms</h3>
+    <div id="classrooms-container"></div>
+
+    <br>
+    <br>
+    
+    <div id="feedback-form">
+        <h3>Add Feedback</h3>
+        <select id="classroom-select">
+            <!-- classroom options show up here-->
+        </select>
+        <textarea id="feedback-text" placeholder="Enter your feedback..."></textarea><br>
+        <button onclick="addFeedback()">Submit Feedback</button>
+    </div>
+    
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Classy</p>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
